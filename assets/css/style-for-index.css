@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://mitchellfauxleathers.com/sf-images/default-source/grand-slam---billiards/billiards-obsidian-vinyl-material.jpg?sfvrsn=c168ef25_4);
+    background-repeat: repeat;
+}
+#top {
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+a {
+    float: right;
+    width: 75px;
+    font-size: 25px;
+    padding: 15px;
+}
+a:hover {
+    color: burlywood;
+}
+#middle-bit {
+    width: 960px;
+    background-color: #ffffff;
+    border: 15px green;
+    align-content: center;
+    margin: 150px;
+    padding: 30px;
+}
+heading {
+    background-color:#4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    align-content: center;
+    font-size: 40px;
+    margin: 100px;
+    border: 400px, 75px, 400px, 75px;
+    padding: 10px;
+}
+h1 {
+    font-family: cursive;
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
+}
+p {
+    font-size: 20px;
+}
+img {
+    float: left;
+    margin: 20px;
+}
+.clearfix {
+    overflow: auto;
+}
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
+    float: bottom;
+    width: 100%;
+    height: 70px;
+    size: 30px;
+
+}
