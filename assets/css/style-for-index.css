@@ -61,3 +61,52 @@ footer {
     size: 30px;
 
 }
+@media only screen and (max-width: 640px) {
+    heading {
+        background-color:#4aaaa5;
+        color: white;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        align-content: center;
+        font-size: 20px;
+        width: 100%;
+        position: static;
+        top: 0;
+        right: 0;
+        left: 0;
+    
+    }
+    a   {
+        float: RIGHT;
+        width: 33.333%;
+        font-size: 10px;
+        background-color: white;
+    }
+    #middle-bit {
+        width: 66%;
+        background-color: #ffffff;
+        align-content: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    img {
+        margin: 10px;
+        /**I had alot of trouble attempting to resize my image to scale it down.**/
+    }
+}
+@media only screen and (max-width: 768px)   {
+
+    #middle-bit {
+        width: 33%;
+        background-color: #ffffff;
+        align-content: center;
+        margin: 10px;
+        padding: 10px;
+        float: left;
+    }
+
+}
+@media only screen and (max-width: 980px) {
+
+
+
+}
